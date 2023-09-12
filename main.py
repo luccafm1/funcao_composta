@@ -12,7 +12,7 @@ def compor(funcao):
   
   x = eval(input("Digite o valor de x: "))
 
-  if funcao:
+  if funcao == 1:
     composicao = f(g(x))
     print(f'(f o g) = {composicao}')
 
@@ -29,7 +29,7 @@ def compor(funcao):
     print(f'(g o g) = {composicao}')
 
 funcao = int(input())
-if funcao:
+if funcao == 1:
   compor(1)
 elif funcao == 2:
   compor(2)
